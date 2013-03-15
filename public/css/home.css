@@ -1,0 +1,243 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: RobotoRegular, Arial;
+}
+
+header, footer, article, hgroup, section, aside{
+    display: block;
+}
+
+/** -------------- HOUSE KEEPING STUFF ---------------- **/
+
+body{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+
+    display: -moz-box;
+    -moz-box-pack: center;
+    background-color: #171717;
+}
+
+#main_container{
+    max-width: 1000px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-orient: vertical;
+}
+
+#main_section{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+
+    display: -box-box;
+    -box-box-orient: horizontal;
+}
+
+#main_content{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    margin-right: 5px;
+    padding: 30px;
+}
+
+li{
+    list-style-type: none;
+}
+
+p{
+    margin: 10px;
+}
+
+h1{
+    font-family: "RobotoThin", "Arial";
+    font-size: 30px;
+    padding: 10px;
+}
+
+#main_header{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+#main_header h1{
+    font: 50px RobotoThin;
+    padding: 30px;
+    margin-bottom: 5px;
+}
+
+#main_nav{
+    display: -webkit-box;
+    display: -moz-box;
+    width: 1000px;
+}
+
+#main_nav ul{
+    display: -webkit-box;
+    display: -moz-box;
+    width: 1000px;
+}
+
+#main_nav ul li{
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+
+    display: -moz-box;
+    -moz-box-flex: 1;
+}
+
+#main_nav ul li a{
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center;
+
+     display: -moz-box;
+    -moz-box-flex: 1;
+    -moz-box-pack: center;
+    margin-right: 5px;
+}
+
+#main_footer{
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+#main_footer p{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+
+    display: -moz-box;
+    -moz-box-pack: center;
+    padding: 5px;
+}
+
+#image_header img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#image_header{
+    
+    height: 300px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+
+     display: -moz-box;
+    -moz-box-pack: center;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+#side_content{
+    padding: 20px;
+}
+
+#items_container{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-orient: horizontal;
+
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-orient: horizontal;
+    margin-bottom: 5px;
+}
+
+#items_container div{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-orient: vertical;
+    -moz-box-flex: 1;
+    padding: 30px;
+    margin-right: 5px;
+}
+
+#items_container div h2{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+
+    display: -moz-box;
+    -moz-box-pack: center;
+    font-weight: normal;
+}
+
+#items_container div ul li{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+
+     display: -moz-box;
+    -moz-box-pack: center;
+}
+
+#items_container div ul li a{
+    color: #DDC8F7;
+    font-size: 10px;
+}
+
+article{
+    margin-top: 20px;
+}
+
+.nav-button {
+    -moz-box-shadow:inset -1px 0px 0px -3px #d9fbbe;
+    -webkit-box-shadow:inset -1px 0px 0px -3px #d9fbbe;
+    box-shadow:inset -1px 0px 0px -3px #d9fbbe;
+    background-color:#b8e356;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #83c41a;
+    display:inline-block;
+    color:black;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:normal;
+    padding:8px 30px;
+    text-decoration:none;
+    text-shadow:1px 1px 6px #86ae47;
+}.nav-button:hover {
+    background-color:#a5cc52;
+}.nav-button:active {
+    position:relative;
+    top:1px;
+}
+
+.click-button {
+    -moz-box-shadow:inset 0px 1px 0px -18px #caefab;
+    -webkit-box-shadow:inset 0px 1px 0px -18px #caefab;
+    box-shadow:inset 0px 1px 0px -18px #caefab;
+    background-color:#b9e356;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+    border-radius:42px;
+    border:1px solid #268a16;
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #aade7c;
+}.click-button:hover {
+    background-color:#a5cc52;
+}.click-button:active {
+    position:relative;
+    top:1px;
+}
+
+#logo{
+    margin: 20px;
+}

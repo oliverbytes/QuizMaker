@@ -1,0 +1,170 @@
+/** -------------- HOUSE KEEPING STUFF ---------------- **/
+
+#main_container{
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+}
+
+#main_section{
+    min-height: 500px;
+    max-width-height: 500px;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-flex: 1;
+}
+
+#interactive_section{
+    width: 100%;
+    overflow:auto;
+    -webkit-box-flex: 1;
+    -webkit-transition: -webkit-transition 1s, background-color 1s;
+    background-color: #3182c1;
+    padding: 10px;
+    color: gray;
+}
+
+#interactive_section #textQuestion{
+    color: white;
+    font-size: 25px;
+}
+
+
+#media_section{
+    width: 700px;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #3182c1;
+    -webkit-transition: -webkit-transition 1s,  background-color 1s;
+}
+
+#textQuestion{
+    -webkit-box-flex: 1;
+}
+
+#imageQuestion{
+    max-width: 700px;
+    max-height: 450px;
+}
+
+table{
+    height: 100px;
+}
+
+table button{
+    padding: 20px;
+    word-wrap:break-word;
+    width: 350px;
+    height: 160px;
+    border: none;
+    background: #50B0FA;
+    color: white;
+    font-size: 20px;
+    -webkit-transition: -webkit-transition 1s,  background 1s;
+}
+
+table button:hover{
+    background: #0085ED;
+}
+
+#main_header{
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+#main_header h1{
+    font: 50px "RobotoThin";
+    padding: 30px;
+    -webkit-transition: -webkit-transition 1s, background-color 1s;
+}
+
+#main_nav, #status-bar{
+    width: 100%;
+    background-color: #3182c1;
+    display: -webkit-box;
+}
+
+#main_nav ul, #status-bar ul{
+    display: -webkit-box;
+}
+
+#main_nav ul li, #status-bar ul li{
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+}
+
+#main_nav ul li a, #status-bar ul li a{
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    -webkit-transition: -webkit-transition 1s, background-color 1s;
+}
+
+#main_nav ul li a:hover, #status-bar ul li a:hover{
+    background-color: #3c9be5;
+}
+
+#main_footer{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/** -------------- HOUSE KEEPING STUFF ---------------- **/
+
+article{
+    margin-top: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+h2{
+    color: #2BA9FF;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, footer, article, hgroup, section, aside{
+    display: block;
+}
+
+
+body{
+    width: 98%;
+    height: 100%;
+    padding: 15px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    background-color: #235c88;
+    color: white;
+    font-size: 14px;
+    font-family: "RobotoRegular";
+}
+
+/** -------------- LEAN MODAL ---------------- **/
+
+/*#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: black;
+    display: none;
+}*/
+
+/** -------------- HOUSE KEEPING STUFF ---------------- **/
